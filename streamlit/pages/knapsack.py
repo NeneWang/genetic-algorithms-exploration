@@ -134,7 +134,9 @@ st.title('Knapsack Problem')
 
 with st.container():
     st.write("The knapsack problem is a problem in combinatorial optimization: Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible.")
-
+    # https://rosettacode.org/wiki/Knapsack_problem/0-1#
+    st.write("You can read more about the knapsack problem here: | [Wiki](https://en.wikipedia.org/wiki/Knapsack_problem) | [Rosetta](https://rosettacode.org/wiki/Knapsack_problem/0-1#) |")
+    st.write("This is a simple implementation of the knapsack problem using a genetic algorithm.")
 st.subheader('Knapsack Settings')
 
 if st.button('Reset Items'):
